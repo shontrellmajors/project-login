@@ -18,3 +18,26 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+}
+
+fieldset,
+button {
+  border: 0;
+}
+
+/* layout of login section provided */
+.login {
+  min-width: 500px;
+  height: 100%;
+  padding: 30px;
+}
+
+
+/* layout of call-to-action section provided */
+.call-to-action {
+  width: calc(100% - 500px);
+  height: 100%;
+  background: rgb(24, 48, 89);
+  color: white;
+  padding: 0 20px;
+}
